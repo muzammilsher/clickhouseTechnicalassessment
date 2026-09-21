@@ -1,0 +1,10 @@
+# Example Terraform Variables File
+# Copy to terraform.tfvars and populate with non-sensitive testing parameters.
+# Never commit real credentials or state to version control.
+
+project_id       = "replace-with-your-project-id"
+region           = "europe-west2"
+zone             = "europe-west2-a"
+# Ensure trusted_ssh_cidr is NOT 0.0.0.0/0
+trusted_ssh_cidr = "203.0.113.10/32"
+domain_name      = "app.example.com"

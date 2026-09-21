@@ -1,0 +1,11 @@
+.git
+.gitignore
+.env
+*.pem
+*.key
+__pycache__
+.pytest_cache
+.venv
+node_modules
+terraform.tfstate
+terraform.tfstate.*
